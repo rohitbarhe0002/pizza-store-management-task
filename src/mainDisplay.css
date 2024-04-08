@@ -1,0 +1,19 @@
+.orders-container {
+    display: flex;
+  }
+  
+  .stage-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .order-card {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-card.highlighted {
+    background-color: #f00b0b; /* Light red for highlighting */
+  }
+  
